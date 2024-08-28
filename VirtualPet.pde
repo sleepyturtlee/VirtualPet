@@ -1,16 +1,18 @@
-
-void setup(){
-  //some of your code here
-  // Canvas size
-  size(400, 500);
-}
-void draw(){
-  //more of your code here
-  // Geometric cat
-  // First ear
-  triangle(150, 30, 165, 50, 200, 50);
-  // second ear
-  triangle(175, 30, 170, 50, 185, 60);
-  triangle(175, 30, 185, 60, 200, 45);
+void setup() {
+size(400, 400);
 }
 
+void draw() {
+  // ears
+  // left ear
+  triangle(40, 280, 50, 170, 150, 200);
+  // right ear
+  triangle(360, 280, 350, 170, 250, 200);
+  
+  // head
+  arc(200, 400, 400, 450, PI, TWO_PI);
+  
+  //face features
+  //eyes
+  
+}
