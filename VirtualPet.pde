@@ -25,7 +25,7 @@ void draw() {
   popMatrix();
   
   pushMatrix();
-  translate(213, 190);
+  translate(213, 193);
   rotate(radians(320));
   arc(0, 0, 35, 40, 0, PI);
   popMatrix();
