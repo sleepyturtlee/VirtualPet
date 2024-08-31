@@ -13,11 +13,26 @@ void draw() {
   
   // inner part of ear
   fill(200, 200, 200);
-  triangle(116, 210, 131, 165, 150, 202);
-  triangle(285, 210, 270, 165, 250, 202);
+  triangle(118, 210, 131, 168, 148, 202);
+  triangle(283, 210, 269, 168, 252, 202);
+  
+  // ahoge
+  fill(60, 60, 60);
+  pushMatrix();
+  translate(187, 195);
+  rotate(radians(55));
+  arc(0, 0, 35, 40, 0, PI);
+  popMatrix();
+  
+  pushMatrix();
+  translate(213, 190);
+  rotate(radians(320));
+  arc(0, 0, 35, 40, 0, PI);
+  popMatrix();
   
   //--------head--------
   // top of head
+  noStroke();
   fill(60, 60, 60);
   arc(200, 228, 200, 50, PI, TWO_PI);
   rect(100, 225, 200, 100);
